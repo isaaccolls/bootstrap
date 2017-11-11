@@ -22,10 +22,46 @@
   <body>
 
     <!-- imagen principal -->
-    <section class="container-fluid slider d-flex justify-content-center align-items-center">
+    <!-- <section class="container-fluid slider d-flex justify-content-center align-items-center">
       <h1 class="display-4">Bootstrap 4!</h1>
-    </section>
+    </section> -->
     <!-- fin de la imagen principal -->
+
+    <!-- carrousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="height: 100vh;">
+          <img class="d-block w-100" src="images/carousel1.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>titulo de la imagen</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 100vh;">
+          <img class="d-block w-100" src="images/carousel2.jpg" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>titulo de la imagen</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 100vh;">
+          <img class="d-block w-100" src="images/carousel3.jpg" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>titulo de la imagen</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+    <!-- fin del carousel -->
 
     <!-- Menu de navecacion -->
     <nav class="navbar navbar-dark bg-dark navbar-expand-sm sticky-top">
