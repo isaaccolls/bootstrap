@@ -1,17 +1,27 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <title>Hello, world!</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <title>this is for google!</title>
+    <meta name="description" content="Curso de Bootstrap">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Isaac Colls">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+      .slider{
+        background: url("images/bg-3.png");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+      }
+    </style>
   </head>
   <body>
     <!-- menu -->
-    <div class="container-fluid bg-dark fixed-top">
+    <div class="container-fluid bg-dark fixed-top text-center">
       <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light container">
         <a class="navbar-brand" href="#">
           <img src="images/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -20,23 +30,35 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-
-
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="navbar-nav ml-auto">
           <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="#">Features</a>
           <a class="nav-item nav-link" href="#">Pricing</a>
-          <a class="nav-item nav-link mr-4" href="#">Disabled</a>
+          <a class="nav-item nav-link mr-md-4" href="#">Disabled</a>
           <div><a href="#" class="btn btn-danger">Contacto</a></div>
         </div>
         </div>
       </nav>
     </div>
     <!-- fin menu -->
-
+    <!-- slider -->
+    <div class="container-fluid slider d-flex flex-column justify-content-center align-items-center">
+      <div class="text-center text-white">
+        <h3 class="d-none d-md-block d-xs-none">Lorem ipsum dolor sit amet.</h3>
+        <h1 class="display">Lorem ipsum dolor.</h1>
+        <p class="lead d-none d-md-block d-xs-none">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+      </div>
+      <form action="" class="form-inline d-flex flex-column flex-sm-row">
+        <div class="form-group mr-4">
+          <input type="text" placeholder="Lorem ipsum dolor sit." class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="submit" class="btn btn-danger" value="Enviar">
+        </div>
+      </form>
+    </div>
+    <!-- fin slider -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
